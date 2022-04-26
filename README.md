@@ -5,5 +5,4 @@ Oyun ve uygulama akademisi
 -Beyzanur KARA Scrum Master <br> 
 -M. Mustafa YILMAZ Developer <br>
 -Feyza Gül APAN Developer
-# Uygulama
- 
+# Oyun Hakkında
