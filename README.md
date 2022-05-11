@@ -9,7 +9,7 @@ Oyun ve Uygulama Akademisi
 **Blocky Bunny** ?(değişebilir)
 ## Ürün Açıklaması
 - Oyunumuz insanların eğlenceli vakit geçirmesini amaçlıyoruz. 
-- Çok da uzun olmayan basit tasarımlı bir oyun planlıyoruz. 
+- Güncel trendlere uygun olarak bir hyper casual oyun gelistirmeyi hedefliyoruz.
 - Hypercasual games  severlerin oynamayı kaçırmayacağı bir oyun olmasını.
 ## Ürün Özellikleri
 - Karakterin altına blok ekleyerek duvarlara çarpmadan havuç yığınına ulaşmaya çalışması
@@ -22,12 +22,12 @@ Oyun ve Uygulama Akademisi
 https://trello.com/b/qBHIA7OE/oua-bootcamp
 
 # Sprint 1 
-- **Sprint notları:** 
+- **Sprint notları:** Sprint notlarina 50 puana karar verilmisti fakat ekipten ayrilmalar ve gorev degisiklikleri nedeniyle 50 puan tamamlanamamistir. Eksik kalan storyler ilerleyen sprint storylerini bloke etmeyecek sekilde gelecek sprintlere aloke edilmistir.
 - **Sprint içinde tamamlanması tahmin edilen puan:** 50 puan
-- **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 200 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 50 ile başlaması gerektiğine karar verildi.
-- **Backlog düzeni ve Story seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur.
+- **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 150 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 50 ile başlaması gerektiğine karar verildi.
+- **Backlog düzeni ve Story seçimleri:** Backlog düzeni ve story takibi için trello kullanılmasına karar verilmiş. Link board oluşturulmuştur. Backlog proje boyunca yapIlacak iŞ kırılımını yansıtan storylerden oluşmaktadır. Önceliklendirilip ilgili sprint kapsamına dahil edilen story’ler toplam puan limiti göz önünde bulundurularak To Do kolonuna taşınmaktadır.
 
-**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü *Whatsapp* üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: https://1drv.ms/w/s!Ase6bwjf2qbjsWzC4-7JvXKGP0hF?e=HZvSoE
+**Daily Scrum:** Daily scrum toplanlantilari hızlı etkileşim ve takip kolaylığı sebebiyle _whatsapp_ uzerinden yapilmaktadir. Ek olarak haftalik review toplantıları her pazar 11.00’da Zoom uzerinden gerceklestirilmektedir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: https://1drv.ms/w/s!Ase6bwjf2qbjsWzC4-7JvXKGP0hF?e=HZvSoE
 
 - **Sprint board update:** Sprint board screenshot:
 ![image](https://user-images.githubusercontent.com/95425770/167819289-503a5a2e-2711-4408-befc-ae0ed7d29624.png)
@@ -39,13 +39,15 @@ https://trello.com/b/qBHIA7OE/oua-bootcamp
 
 
 - **Sprint Review:**  Alınan kararlar: 
-  - Oyununun özelliklerin de düzenlenmesi gerekenler belirlenmiştir. 
-  - Karakter tasarımlarının düzenlenmesi karar verildi. Ekstra koyulması gereken özellikler belirlenmiştir. 
+  - Oyun turu ve high level story board belirlenmiştir.
+  - Oyunun sahip olacagi foksiyonlar high level belirlenmiştir.
+  - High level backlog storyleri belirlenmiştir.
+  - Backlog önceliklendirmeleri yapılmıştır.
   - Sprint Review katılımcıları: Burcu GÜREL - Beyzanur KARA - M. Mustafa YILMAZ
 
 - **Sprint Retrospective:**
- - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
- - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer tarafından verildiğine emin olunmalı.
- - Unit Kod yazım için ayrılan efor/saat arttırılmalı
+ - Takimdan ayrılmalar vs gereken rol degişiklikleri yapılmıştır. 
+ - Sprint 2 kapsamında yer alacak story puan toplaminin 70 olmasına karar verilmiştir.
+ - Backlog storylerinin puanları yeniden hesaplanmalıdır.
 
--Diğer Notlar:
+# Sprint 2
