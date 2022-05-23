@@ -50,7 +50,6 @@ https://trello.com/b/qBHIA7OE/oua-bootcamp
  - Sprint 2 kapsamında yer alacak story puan toplaminin 70 olmasına karar verilmiştir.
  - Backlog storylerinin puanları yeniden hesaplanmalıdır.
 
-# Sprint 2
 
 # Sprint 2 
 - **Sprint notları:** Bir önceki sprintte kararlaştırıldığı üzere bu sprintte toplam 70 puan tamamlanması hedeflenmiştir. Sprint içerisinde oyun pivot edilmiştir. Her iki sürüm de repoya eklenmiştir.
