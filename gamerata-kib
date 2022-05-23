@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class gameratakib : MonoBehaviour
+{
+    
+    // The Target
+    public Transform target;
+   
+    //  anl�k takib
+    void Update () {
+        transform.position = new Vector3(target.position.x,
+            transform.position.y,
+            transform.position.z);
+   
+    }
+    
+    void LateUpdate () {
+        if(target == blok) return;
+        transform.position = new Vector3(target.position.x,
+            transform.position.y,
+            transform.position.z);
+    }
+}
+
