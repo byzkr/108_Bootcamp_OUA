@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Bunny : MonoBehaviour
+{
+    // hız oranı
+    public float speed = 2;
+   
+    // güç oranı
+    public float force = 300;
+
+    
+    void Start () {    
+        // sağa uçmasını sağlıyor
+        
+        GetComponent<Rigidbody2D>().velocity = Vector2.right * speed;
+    }
+   
+    // Update is called once per frame
+    void Update () {
+        // space bastığında güç uygulaması
+        if (Input.GetKeyDown(KeyCode.Space))
+            GetComponent<Rigidbody2D>().AddForce(Vector2.up * force);
+    }
+       
+    // yandığı zaman olacak senaryo
+    void OnCollisionEnter2D(Collision2D coll) {
+        // başa aliyur
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+}
