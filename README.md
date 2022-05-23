@@ -59,13 +59,11 @@ https://trello.com/b/qBHIA7OE/oua-bootcamp
 
 **Daily Scrum:** Daily scrum toplanlantilari hızlı etkileşim ve takip kolaylığı sebebiyle _whatsapp_ kanalından devam etmektedir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: https://1drv.ms/w/s!Ase6bwjf2qbjsWzC4-7JvXKGP0hF?e=HZvSoE
 
-- **Sprint board update:** Sprint board screenshot:
-![image](https://user-images.githubusercontent.com/95425770/167819289-503a5a2e-2711-4408-befc-ae0ed7d29624.png)
+- **Sprint board update:** Sprint ve backlog board'u Trello linkinden takip edilebilir.
 
 - **Ürün Assetleri**
-Pivot öncesi ve sonrası olamk üzere 2 farklı versiyona ait scriptler repo içerisine eklenmiştir. Tasarım assetleri ise aşağıda bulunabilir.
-![İmage](https://user-images.githubusercontent.com/95425770/167818740-bf663b90-3f40-4b6c-9254-710ee5c5f987.png)
-![background blue and yellow](https://user-images.githubusercontent.com/95425770/167822574-5362447d-ed82-4a25-bf26-03ad2cf743b4.jpg)
+Pivot öncesi ve sonrası olamk üzere 2 farklı versiyona ait scriptler repo içerisine eklenmiştir. 
+Tasarım assetleri ise ayrıca dosya olarak repo içerisine eklenmiştir.
 
 
 - **Sprint Review:**  Alınan kararlar: 
