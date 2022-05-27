@@ -60,10 +60,13 @@ https://trello.com/b/qBHIA7OE/oua-bootcamp
 **Daily Scrum:** Daily scrum toplanlantilari hızlı etkileşim ve takip kolaylığı sebebiyle _whatsapp_ kanalından devam etmektedir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: https://1drv.ms/w/s!Ase6bwjf2qbjsWzC4-7JvXKGP0hF?e=HZvSoE
 
 - **Sprint board update:** Sprint ve backlog board'u Trello linkinden takip edilebilir.
+![trello ss](https://user-images.githubusercontent.com/27606741/170665525-35ebc1fc-3d05-4966-ab47-731d88c2efb1.png)
+
 
 - **Ürün Assetleri**
 Pivot öncesi ve sonrası olamk üzere 2 farklı versiyona ait scriptler repo içerisine eklenmiştir. 
 Tasarım assetleri ise ayrıca dosya olarak repo içerisine eklenmiştir.
+Engel ve blok tasarımları Tolgay Hoca'nın derslerde paylaştığı asset dosyasından placeholder olarak alınmıştır.
 
 
 - **Sprint Review:**  Alınan kararlar: 
@@ -74,6 +77,13 @@ Tasarım assetleri ise ayrıca dosya olarak repo içerisine eklenmiştir.
 - Karakter ve engel tasarımları tamamlanmıştır.
   - İlerleme, zıplama, çarpma fonksiyonları geliştirilmiştir.
   - Sprint Review katılımcıları: Burcu GÜREL - Beyzanur KARA - M. Mustafa YILMAZ
+
+
+ - **Oyun Ekran Görüntüleri:**
+ 
+![SS1](https://user-images.githubusercontent.com/27606741/170665786-1dff58a8-2493-42c7-82fe-96e852af0a50.jpeg)
+![SS2](https://user-images.githubusercontent.com/27606741/170665790-d4655171-a291-43d7-9cd9-60bc907c279e.jpeg)
+![SS3](https://user-images.githubusercontent.com/27606741/170665793-7626f2bc-3a57-4001-9d05-9767819bafbc.jpeg)
 
 - **Sprint Retrospective:**
  - Proje kapsamında tamamlanması beklenen 150 puandan 100 puanlık story tamamlanmıştır. 3.sprint için tamamlanması planlanan işlerin 30 puanı geliştirme ve tasarım tasklarından oluşurken 20 puan iç ve kullanıcı testlerinden oluşmaktadır.
