@@ -1,0 +1,193 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Ucantavsan : MonoBehaviour
+{
+
+    public GameManager gameManager;
+    public float velocity = 1;
+
+    private Rigidbody2D rb;
+    // Start is called before the first frame update
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))   // sol click ile zıplama tuşu
+        {
+            rb.velocity = Vector2.up * velocity;
+        }
+            
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        gameManager.GameOver(); 
+    }
+}
+
+
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AddScore : MonoBehaviour
+{
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Score.score++;
+    }
+}
+
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Score : MonoBehaviour
+{
+   public static int score = 0;
+
+
+   public void Start()
+   {
+      score = 0;
+   }
+
+   private void Update()
+   {
+      GetComponent<UnityEngine.UI.Text>().text = score.ToString();
+   }
+}
+
+
+
+
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class nextbutton : MonoBehaviour
+{
+
+    private Scene _scene;
+
+    private void Awake()
+    {
+        _scene = SceneManager.GetActiveScene();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(_scene.buildIndex + 1);
+        }
+    }
+
+
+    public void StartLevel()
+    {
+        SceneManager.LoadScene(_scene.buildIndex + 1);
+    }
+}
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameManager : MonoBehaviour
+{
+    public GameObject gameOverCanvas;
+
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
+    public void GameOver()
+    {
+        gameOverCanvas.SetActive(true);
+        Time.timeScale = 0;
+
+    }
+
+    public void Replay()
+    {
+        SceneManager.LoadScene(1);
+
+
+    }
+
+
+
+
+}
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class duvarolusturma : MonoBehaviour
+{
+
+    public float maxTime = 1;
+
+    private float timer = 0;
+
+    public GameObject duvarlar;
+
+    public float height;
+    // Start is called before the first frame update
+    void Start()
+    {
+        GameObject sinirsiz = Instantiate(duvarlar);
+        sinirsiz.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
+    }
+
+    // Update is called once per frame
+    void Update() {
+        if (timer > maxTime)
+        {
+            GameObject sinirsiz = Instantiate(duvarlar);
+            sinirsiz.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
+            Destroy(sinirsiz, 15);
+            timer = 0;
+        }
+
+        timer += Time.deltaTime;
+    }
+}
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class duvarhareket : MonoBehaviour
+{
+    public float speed;
+    
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.position += Vector3.left * speed * Time.deltaTime;
+    }
+}
