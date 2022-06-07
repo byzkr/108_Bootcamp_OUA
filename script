@@ -30,3 +30,4 @@ public class Bunny : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
+ 
