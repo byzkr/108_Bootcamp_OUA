@@ -6,7 +6,7 @@ Oyun ve Uygulama Akademisi
 - M. Mustafa YILMAZ Team Member/Developer 
 # Ürün ile ilgili  bilgiler
 ## Ürün ismi
-**Blocky Bunny** ?(değişebilir)
+**Bounce Bunny**
 ## Ürün Açıklaması
 - Oyunumuz insanların eğlenceli vakit geçirmesini amaçlıyoruz. 
 - Güncel trendlere uygun olarak bir hyper casual oyun gelistirmeyi hedefliyoruz.
